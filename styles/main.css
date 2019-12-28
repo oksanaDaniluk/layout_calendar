@@ -1,0 +1,350 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 799px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 100px auto; }
+
+.calendar div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: #eee;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  display: none;
+  position: relative; }
+
+.calendar div:nth-child(1)::after {
+  content: "1";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(2)::after {
+  content: "2";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(3)::after {
+  content: "3";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(4)::after {
+  content: "4";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(5)::after {
+  content: "5";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(6)::after {
+  content: "6";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(7)::after {
+  content: "7";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(8)::after {
+  content: "8";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(9)::after {
+  content: "9";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(10)::after {
+  content: "10";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(11)::after {
+  content: "11";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(12)::after {
+  content: "12";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(13)::after {
+  content: "13";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(14)::after {
+  content: "14";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(15)::after {
+  content: "15";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(16)::after {
+  content: "16";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(17)::after {
+  content: "17";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(18)::after {
+  content: "18";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(19)::after {
+  content: "19";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(20)::after {
+  content: "20";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(21)::after {
+  content: "21";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(22)::after {
+  content: "22";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(23)::after {
+  content: "23";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(24)::after {
+  content: "24";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(25)::after {
+  content: "25";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(26)::after {
+  content: "26";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(27)::after {
+  content: "27";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(28)::after {
+  content: "28";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(29)::after {
+  content: "29";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(30)::after {
+  content: "30";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar div:nth-child(31)::after {
+  content: "31";
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 98px;
+  text-align: center; }
+
+.calendar-28 div:nth-child(-n+28) {
+  display: block; }
+
+.calendar-29 div:nth-child(-n+29) {
+  display: block; }
+
+.calendar-30 div:nth-child(-n+30) {
+  display: block; }
+
+.calendar-31 div:nth-child(-n+31) {
+  display: block; }
+
+.calendar-mon div:first-child {
+  margin-left: 101px; }
+
+.calendar-tue div:first-child {
+  margin-left: 202px; }
+
+.calendar-wed div:first-child {
+  margin-left: 303px; }
+
+.calendar-thu div:first-child {
+  margin-left: 404px; }
+
+.calendar-fri div:first-child {
+  margin-left: 505px; }
+
+.calendar-sat div:first-child {
+  margin-left: 606px; }
+
+.calendar-sun div:first-child {
+  margin-left: 707px; }
+
+.calendar div:hover {
+  background-color: pink;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px); }
+
+/*# sourceMappingURL=main.css.map */
