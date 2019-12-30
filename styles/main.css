@@ -318,22 +318,22 @@ body {
 .calendar-31 div:nth-child(-n+31) {
   display: block; }
 
-.calendar-mon div:first-child {
+.calendar-tue div:first-child {
   margin-left: 101px; }
 
-.calendar-tue div:first-child {
+.calendar-wed div:first-child {
   margin-left: 202px; }
 
-.calendar-wed div:first-child {
+.calendar-thu div:first-child {
   margin-left: 303px; }
 
-.calendar-thu div:first-child {
+.calendar-fri div:first-child {
   margin-left: 404px; }
 
-.calendar-fri div:first-child {
+.calendar-sat div:first-child {
   margin-left: 505px; }
 
-.calendar-sat div:first-child {
+.calendar-sun div:first-child {
   margin-left: 606px; }
 
 .calendar div:hover {
